@@ -1,0 +1,8 @@
+export {default as logo} from './logo.svg'
+export {default as menu} from './menu.svg'
+export {default as heroImg1} from './hero-img1.svg'
+export {default as heroImg2} from './hero-img2.svg'
+export {default as heroImg3} from './hero-img3.svg'
+export {default as arrow} from './arrow.svg'
+export {default as vidoe} from './vidoe-img.svg'
+export {default as circledImg} from './circled-img.svg'
