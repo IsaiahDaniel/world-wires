@@ -9,6 +9,8 @@ export default {
       backgroundImage: {
         'topBgImg': "url('/imgs/top-bg-image.svg')",
         'mobileTopBgImg': "url('/imgs/mobile-top-bg-img.svg')",
+        'mobileDownBgImg': "url('/imgs/mobile-down-bg-img.svg')",
+        'downBgImg': "url('/imgs/down-bg-img.svg')",
       },
     },
   },

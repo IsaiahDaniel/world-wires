@@ -1,6 +1,7 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
 import {circledImg} from '../../assets/home'
+import Button from '../global/Button';
 
 
 type Props = {}
@@ -30,8 +31,8 @@ const Why = (props: Props) => {
 
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 my-20'>
             {reasons.map((reason, index) => (
-              <div className='p-[3px]' style={{background:'linear-gradient(#EA6EE7 100%, #FD68E3 100%, #B66FFA 100%, #7668FD 100%, #7D2AE7 100% )'}}>
-                <div className='flex flex-col gap-4 lg:gap-10 py-10 px-14 lg:px-20' style={{background:'linear-gradient(137.47deg, #AB54FD 0%, #260742 104.69%)'}}>
+              <div key={index} className='p-[3px]' style={{background:'linear-gradient(#EA6EE7 100%, #FD68E3 100%, #B66FFA 100%, #7668FD 100%, #7D2AE7 100% )'}}>
+                <div className='flex flex-col gap-4 lg:gap-10 py-10 px-10 lg:px-20' style={{background:'linear-gradient(137.47deg, #AB54FD 0%, #260742 104.69%)'}}>
                   <img src={circledImg} alt="" className='w-[20%] h-[20%] self-end' />
                   <h4 className='lg:text-4xl font-medium'>{reason.title}</h4>
                   <p className='font-["Roboto"] lg:text-2xl'>{reason.description}</p>
@@ -39,7 +40,7 @@ const Why = (props: Props) => {
               </div>
             ))}
           </div>
-
+          <Button buttonType='button' text='Join Community' classNames='block mx-auto'/>
       </div>
     </div>
   )
