@@ -1,5 +1,7 @@
+const withMT = require("@material-tailwind/react/utils/withMT");
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -11,9 +13,11 @@ export default {
         'mobileTopBgImg': "url('/imgs/mobile-top-bg-img.svg')",
         'mobileDownBgImg': "url('/imgs/mobile-down-bg-img.svg')",
         'downBgImg': "url('/imgs/down-bg-img.svg')",
+        'footerBgImg': "url('/imgs/footer-bg-img.svg')",
+        'mobileFooterBgImg': "url('/imgs/mobile-footer-bg-img.svg')",
       },
     },
   },
   plugins: [],
-}
+});
 

@@ -1,4 +1,4 @@
-import { About, Hero, Navbar, Partners, Why } from '../components/home'
+import { About, Faq, Footer, Hero, Navbar, Partners, Team, Values, Why } from '../components/home'
 
 type Props = {}
 
@@ -10,7 +10,10 @@ const Home = (props: Props) => {
       <About/>
       <Why/>
       <Partners/>
-
+      <Values/>
+      <Team/>
+      <Faq/>
+      <Footer/>
     </>
   )
 }
