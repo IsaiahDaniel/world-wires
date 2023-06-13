@@ -15,6 +15,8 @@ module.exports = withMT({
         'downBgImg': "url('/imgs/down-bg-img.svg')",
         'footerBgImg': "url('/imgs/footer-bg-img.svg')",
         'mobileFooterBgImg': "url('/imgs/mobile-footer-bg-img.svg')",
+        'roadmapHeroImg': "url('/imgs/hero-img.svg')",
+        'roadmapBgImg': "url('/imgs/roadmap-bg-img.svg')",
       },
     },
   },
