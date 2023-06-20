@@ -1,5 +1,4 @@
-import { About, Faq, Footer, Hero, Navbar, Partners, Team, Values, Why } from '../components/home'
-import { logo, menu } from '../assets/home'
+import { About, Footer, Header, Partners, Why} from '../components/home'
 
 
 type Props = {}
@@ -7,15 +6,11 @@ type Props = {}
 const Home = (props: Props) => {
   return (
     <>
-      <Navbar logo={logo}/>
-      <Hero/>
+      <Header/>
+      <Partners/>
       <About/>
       <Why/>
-      <Partners/>
-      <Values/>
-      <Team/>
-      <Faq/>
-      <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
