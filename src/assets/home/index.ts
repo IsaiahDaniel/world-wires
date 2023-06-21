@@ -1,2 +1,8 @@
 export {default as logo} from './logo.svg'
 export {default as heroImg} from './hero-img.png'
+export {default as qualityIcon} from './chart-icon.svg'
+export {default as passionIcon} from './passion-icon.svg'
+export {default as diversityIcon} from './diversity-icon.svg'
+export {default as project1} from './project1.svg'
+export {default as project2} from './project2.svg'
+export {default as shape} from './shape.svg'

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { logo } from '../../assets/home'
-import Button from '../global/Button'
 import { useState } from 'react';
+import { FaBars } from "react-icons/fa";
 
 
 const navList = [
@@ -17,7 +17,7 @@ const navbar = () => {
 
   return (
     <div className='relative'>
-        <div className='flex justify-between items-center w-[90%] mx-auto py-5'>
+        <div className='flex justify-between items-center w-full px-5 md:px-16 mx-auto py-5 fixed z-20 bg-[#0E0202]'>
             <div>
                 <img src={logo} alt="Logo" />
             </div>
@@ -26,10 +26,10 @@ const navbar = () => {
                     <Link to={nav.link} key={nav.name}>{nav.name}</Link>
                 ))}
             </ul>
-            {/* <img src={menu} alt="menu" className='lg:hidden' onClick={() => setShowNav(!showNav)}/> */}
+            <FaBars className='lg:hidden text-white text-4xl' onClick={() => setShowNav(!showNav)}/>
         </div>
         { showNav && (
-            <ul className={`flex flex-col justify-center items-center w-full absolute gap-5 py-5 z-10 font-semibold bg-white text-[#1E0734]`}>
+            <ul className={`flex flex-col justify-center items-center w-full absolute top-20 gap-5 py-5 z-10 font-semibold bg-white text-[#1E0734]`}>
                 {navList.map(nav => (
                     <Link to={nav.link} key={nav.name}>{nav.name}</Link>
                 ))}

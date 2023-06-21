@@ -8,6 +8,12 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'heroBgImg': "url('/imgs/hero-bg-img.png')",
+        'mobileHeroBgImg': "url('/imgs/mobile-hero-bg-img.png')",
+        'aboutBgImg': "url('/imgs/about-bg.img.svg')",
+        'mobileAboutBgImg': "url('/imgs/mobile-about-bg-img.svg')",
+      }
 
     },
   },

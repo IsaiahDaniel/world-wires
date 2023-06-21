@@ -5,7 +5,7 @@ type Props = {}
 
 const Header = (props: Props) => {
   return (
-    <div className='bg-[#0E0202]'>
+    <div className='w-full bg-mobileHeroBgImg md:bg-heroBgImg bg-cover bg-no-repeat'>
         <Navbar/>
         <Hero/>
     </div>
