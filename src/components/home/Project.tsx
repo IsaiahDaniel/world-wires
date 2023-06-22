@@ -14,9 +14,9 @@ const Project = (props: Props) => {
                 <FaAngleRight className='w-8 h-8 rounded-[4px] bg-[#E61C1C] text-white'/>
             </div>
         </div>
-        <div className='flex gap-2 md:gap-8'>
-            <img src={project1} alt="" className='w-[50%] h-[50%] md:w-[100%] md:h-[100%]' />
-            <img src={project2} alt="" className='w-[50%] h-[50%] md:w-[100%] md:h-[100%]' />
+        <div className='grid md:grid-cols-4 grid-cols-2 gap-2 md:gap-8'>
+            <img src={project1} alt=""  />
+            <img src={project2} alt=""  />
         </div>
     </div>
   )

@@ -8,8 +8,8 @@ const navList = [
     { name: 'Home', link: '/'},
     { name: 'Services', link: '/'},
     { name: 'Project', link: '/'},
-    { name: 'About US', link: '/'},
-    { name: 'Contact US', link: '/'},
+    { name: 'About Us', link: '/'},
+    { name: 'Contact Us', link: '/'},
 ]
 
 const navbar = () => {
