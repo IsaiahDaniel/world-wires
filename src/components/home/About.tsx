@@ -38,7 +38,7 @@ const About = (props: Props) => {
             prevArrow={() => null}
             nextArrow={() => null}
             navigation={({ setActiveIndex, activeIndex, length }) => (
-              <div className="absolute bottom-6 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+              <div className="absolute bottom-6 left-2/4 z-10 flex -translate-x-2/4 gap-2">
                 {new Array(length).fill("").map((_, i) => (
                   <span
                     key={i}
